@@ -50,11 +50,11 @@ class WP_Ultimo_Plesk_Gateway_Admin_Action
                 $method = '--create';
         }
 
-        $plesk_url      = rtrim($this->get_option('wpt_plesk_url'), '/');
-        $base_domain    = $this->get_option('wpt_parent_domain');
-        $status         = $this->get_option('wpt_domain_status');
-        $sync_dns       = $this->get_option('wpt_synchronize_dns');
-        $seo_redirect   = $this->get_option('wpt_seo_redirect');
+        $plesk_url      = rtrim($this->get_option('wpupg_plesk_url'), '/');
+        $base_domain    = $this->get_option('wpupg_parent_domain');
+        $status         = $this->get_option('wpupg_domain_status');
+        $sync_dns       = $this->get_option('wpupg_synchronize_dns');
+        $seo_redirect   = $this->get_option('wpupg_seo_redirect');
 
         $auth = base64_encode(WPUPG_USER . ':' . WPUPG_PASSWORD);
 
