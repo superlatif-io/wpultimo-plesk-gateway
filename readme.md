@@ -31,7 +31,7 @@ This way your information are not saved in the database.
 
 ### Prerequisites
 
-- Web server running Plesk Onyx
+- Web server running Plesk Obsidian
 - A domain name on which custom domain will be aliased
 
 ## Authors
